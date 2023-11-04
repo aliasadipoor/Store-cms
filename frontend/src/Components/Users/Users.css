@@ -1,0 +1,66 @@
+.user-title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 60px;
+}
+.user-table {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+.user-table tr {
+  text-align: center;
+  font-weight: bold;
+}
+
+.user-table th {
+  padding: 20px;
+}
+.user-table td {
+  padding: 20px;
+}
+.user-table button {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  margin: 5px;
+}
+
+.edite-user-div {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  width: 100%;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.edit-user-input {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+/* children modal style */
+.edit-product-form {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+.edit-product-input {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+}
